@@ -33,7 +33,7 @@ table{
     box-shadow: 0 3px 6px gainsboro;
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: auto;
+    width: 100%;
 }
 .race-name{
  
@@ -41,7 +41,7 @@ table{
 }
 #tab {
     margin-top: 30px;
-    margin-left: 10px;
+    margin-left: 1px;
 }
 
 .user-input-button {
