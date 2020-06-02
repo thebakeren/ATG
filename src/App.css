@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+body {
+text-align: center; 
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#seach{
+    margin-top: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.user-input-text-field {
+    height: 40px;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px gainsboro;
+    border: none;
+ 
+}
+#game-info{
+    display: flex; 
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    font-size: small;
+    word-wrap: break-word;
+    white-space: wrap;
+    padding: 8px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
   }
-  to {
-    transform: rotate(360deg);
-  }
+table{
+    word-wrap: break-word;
+    white-space: wrap;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px gainsboro;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: auto;
 }
+
+#tab {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.user-input-button {
+    margin-left: -25px;
+    margin-bottom: -15px;
+    height: 30px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+form {
+    display: inline;
+}
+
+.user-input-text-field {
+    text-indent: 4px;
+    width: 60%;
+
+}
+
+
+
+
+
