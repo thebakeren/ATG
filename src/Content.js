@@ -140,7 +140,7 @@ class Content extends React.Component {
                 return (
                         <tr>
                         <td>{this.props.data.number}</td>
-                        <td>{this.props.data.name}</td>
+                        <td className="race-name">{this.props.data.name}</td>
                        <td>{this.props.data.scheduledStartTime}</td>
                         </tr>  
                 )

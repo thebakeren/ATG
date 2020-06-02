@@ -35,7 +35,10 @@ table{
     border-collapse: collapse;
     width: auto;
 }
-
+.race-name{
+ 
+    width:60%; 
+}
 #tab {
     margin-top: 30px;
     margin-left: 10px;
